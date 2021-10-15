@@ -8,8 +8,7 @@ WORKDIR /home
 
 RUN apt-get update
 
-RUN apt-get install lxde
-
+RUN apt-get install fluxbox
 RUN chmod +x /home
 
 COPY . .
