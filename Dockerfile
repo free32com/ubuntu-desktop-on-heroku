@@ -8,6 +8,8 @@ WORKDIR /home
 
 RUN apt-get update
 
+RUN apt-get install lxde
+
 RUN chmod +x /home
 
 COPY . .
